@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Carta from './Components/Carta';
+import Carta from './components/carta.jsx';
 
 
 

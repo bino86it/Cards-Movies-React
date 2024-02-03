@@ -18,15 +18,15 @@ const [movieList, setMovieList]=useState([]);
 
 
   return (
-  <>
-    <div className='wrapper'>
-      {movieList.map((film)=>(
-        <Carta title={film.title} key={film.id} year={film.year} imgUrl={film.image}></Carta>
-        )
-        )
-      }
-  </div>
-  </>
+    <>
+      <div className='wrapper'>
+        {movieList.map((film)=>(
+          <Carta title={film.title} key={film.id} year={film.year} imgUrl={film.image}></Carta>
+          )
+          )
+        }
+      </div>
+    </>
   );
 }
 

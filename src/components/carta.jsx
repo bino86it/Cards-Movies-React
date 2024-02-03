@@ -1,8 +1,5 @@
 const Carta = ({title, year, imgUrl})=>{
 
-
-
-
     return(
     
         <div className="box">
@@ -10,7 +7,6 @@ const Carta = ({title, year, imgUrl})=>{
             <h5>{year}</h5>
             <img src={imgUrl} alt="" />
             {Number(year)<=new Date().getFullYear() ? <span className="uscito">Uscito</span> : <span className="prossimamente">prossimamente</span>}
-    
     
         </div>
     )
